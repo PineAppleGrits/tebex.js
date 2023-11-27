@@ -1,7 +1,6 @@
 # Tebex.js
 
 A Node.js client for the Tebex REST API written in Typescript. Easily interact with the Tebex REST API using this library.
---
 
 
 # 🚀 Installation
