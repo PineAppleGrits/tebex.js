@@ -11,6 +11,29 @@
   "scripts": {
     "build": "tsup"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PineAppleGrits/tebex.js.git"
+  },
+  "keywords": [
+    "tebex",
+    "javascript",
+    "api",
+    "wrapper",
+    "integration",
+    "server",
+    "plugin",
+    "backend",
+    "development",
+    "web",
+    "HTTP",
+    "fetch",
+    "REST"
+  ],
+  "homepage": "https://tebexjs.ginos.codes",
+  "bugs": {
+    "url": "https://github.com/PineAppleGrits/tebex.js/issues"
+  },
   "author": "Gino S.",
   "license": "MIT",
   "devDependencies": {
