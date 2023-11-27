@@ -3,6 +3,13 @@
 A Node.js client for the Tebex REST API written in Typescript. Easily interact with the Tebex REST API using this library.
 
 
+![npm](https://img.shields.io/npm/v/tebex.js)
+![GitHub Repo stars](https://img.shields.io/github/stars/PineAppleGrits/tebex.js)
+![npm bundle size](https://img.shields.io/bundlephobia/min/tebex.js)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PineAppleGrits/tebex.js)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/PineAppleGrits/tebex.js)
+![GitHub issues](https://img.shields.io/github/issues/PineAppleGrits/tebex.js)
+![GitHub top language](https://img.shields.io/github/languages/top/PineAppleGrits/tebex.js)
 # 🚀 Installation
 ```
 npm install --save tebex.js
