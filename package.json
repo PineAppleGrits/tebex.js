@@ -1,0 +1,25 @@
+{
+  "name": "tebex.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": "Gino S.",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.9",
+    "ts-node": "^10.9.1",
+    "tsup": "^8.0.1",
+    "typescript": "5.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
