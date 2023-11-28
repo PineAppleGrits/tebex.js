@@ -72,6 +72,11 @@ const config: Config = {
           label: "Documentation",
         },
         {
+          href: "https://www.npmjs.com/package/tebex.js",
+          label: "NPM",
+          position: "right",
+        },
+        {
           href: "https://github.com/PineAppleGrits/tebex.js",
           label: "GitHub",
           position: "right",
@@ -100,6 +105,14 @@ const config: Config = {
             {
               label: "GitHub",
               href: "https://github.com/PineAppleGrits/tebex.js",
+            },
+            {
+              label: "Issues tracker",
+              href: "https://github.com/PineAppleGrits/tebex.js/issues",
+            },
+            {
+              label: "NPM",
+              href: "https://www.npmjs.com/package/tebex.js",
             },
           ],
         },
