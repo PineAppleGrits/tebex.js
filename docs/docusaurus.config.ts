@@ -30,7 +30,7 @@ const config: Config = {
   organizationName: "PineAppleGrits", // Usually your GitHub org/user name.
   projectName: "tebex.js", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
