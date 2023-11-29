@@ -33,27 +33,25 @@ const TEBEX_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 const client = new TebexClient(TEBEX_SECRET);
 
-// Use client
+// Use client to fetch information
 (async () => {
-const information = await client.information();
-console.log(information)
-});
+  const information = await client.information();
+  console.log(information)
+})();
 
 ```
 
 Using `TebexRest`
 
 ```js
-import { TebexClient } from 'tebex.js';
+import { TebexRest } from 'tebex.js';
 const TEBEX_SECRET = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-
-
 
 // Use rest to fetch an specific endpoint
 (async () => {
-const information = TebexRest(TEBEX_SECRET).information();
-console.log(information)
-});
+  const information = await TebexRest(TEBEX_SECRET).information();
+  console.log(information)
+})();
 
 ```
 
@@ -73,5 +71,5 @@ Feel free to help! If you're interested in helping with the project, please take
 
 # ✨ More
 
-You can check the [official documentation](https://plugin.tebex.io/docs). Our package uses the official endpoints. 
+You can check the [official documentation API](https://plugin.tebex.io/docs) to see the HTTP API. This package uses the official endpoints. 
 
